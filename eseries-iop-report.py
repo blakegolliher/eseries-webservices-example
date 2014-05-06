@@ -1,4 +1,10 @@
 #!/usr/bin/python
+##
+# Simple example of a volume stats report
+# there are newer api's I should use now
+#
+# Blake Golliher blakegolliher@gmail.com
+##
 
 import json, sys, urllib, urllib2, base64
 
@@ -12,6 +18,7 @@ e.g ./eseries_io.py eseries-001
 webserviceshost = 'webservices.host' 
 name = 'yourname'
 passwd = 'yourpass'
+## serious change here
 
 arrayname = sys.argv[1]
 
